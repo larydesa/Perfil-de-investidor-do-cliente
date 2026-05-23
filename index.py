@@ -8,10 +8,10 @@ elif valor_investido <= 50.000:
 else:
   print("Seu perfil perfil é: ARROJADO")
 print("-" * 30)
+
 atendimento = int(input('''Qual sua preferência de atendimento?
                         [1] App/Robô
-                        [2] Especialista
-                        '''))
+                        [2] Especialista'''))
 if atendimento == 1:
   print("Sua conta será direcionada para a nossa IA de investimentos recomendados")
 elif atendimento == 2:
